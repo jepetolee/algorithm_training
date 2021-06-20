@@ -7,7 +7,7 @@
  백준 <br> LEET CODE <br> 기타 네이버 블로그  <br> 프로그래밍 대회에서 배우는 알고리즘 문제해결 전략 (인사이트 구종만 저)  <br> The art of computer programming (도널드 커누스 저)
  
 
-<Algorithms> <br>
+# Algorithms  <br>
  1. Brute force <br>
  2. Divide and Conquer <br>
  3. Dynamic Programming <br>
@@ -17,7 +17,7 @@
  
  ----------------------
  
- <Mathmetics> <br>
+ # Mathmetics <br>
  1. Numerical Analysis <br>
  2. Number Theory <br>
  3. Geometry <br>
@@ -26,7 +26,7 @@
   
  -----------------------
  
-  <Data Science> <br>
+  # Data Science <br>
  1. Data structure <br>
  2. Machine Learning & Neural Network <br>
  3. Big Data Technics <br>

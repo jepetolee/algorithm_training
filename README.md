@@ -12,7 +12,7 @@
  4. Greedy
  5. Combinational Search
  6. Decision Problem
-
+ 
  ----------------------
  <Mathmetics>
  1. Numerical Analysis
@@ -20,6 +20,7 @@
  3. Geometry
  4. Discrete mathematics
  5. Statistics
+  
  -----------------------
  <Data Science>
  1. Data structure

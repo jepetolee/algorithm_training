@@ -4,6 +4,7 @@
 */
 
 #include <stdc++.h>
+
 using namespace std;
 
 const vector<vector<int>> linked = {
@@ -19,40 +20,53 @@ const vector<vector<int>> linked = {
 	{3,4,5,9,13}
 };
 
-void push(vector <int>& clocks, int switchnumbers) {
+void cpush(vector <int>& clocks, int switchnumbers) {
+
 	for (auto t : linked[switchnumbers])
 		clocks[t] = (clocks[t] == 12) ? 3 : (clocks[t] + 3);
+
 }
 
 bool areAligned(const vector<int>& clocks) {
+
 	for (auto c : clocks)
 		if (c != 12) return false;
+
 	return true;
 }
 
 int solve(vector<int>& clocks, int cnt){
-	if (cnt == 10) return areAligned(clocks) ? 0 : -1;
-	int ret = 99999;
-	for (int j = 0; j < 4; ++j)
-		ret = min(ret, j + solve(clocks, cnt+1));
+
+	if (cnt == 10) 
+		return areAligned(clocks) ? 0 : 99999;
 	
+	int ret = 99999;
+
+	for (int j = 0; j < 4; ++j) {
+		ret = min(ret, j + solve(clocks, cnt + 1));
+		cpush(clocks, cnt);
+	}
+
 	return ret;
 }
 
 int main() {
+	
 	int testcase;
 	auto times = vector<int>(16);
 	cin >> testcase; 
 
 	while(testcase--) {
-
-		int temp;
+		
+		int temp;	
+		
 		for (int i = 0; i < 16; i++){
 			cin >> temp;
 			times[i] = temp;
 		}
+
 		int ret = solve(times, 0);
-		cout << ret;
+		
 		ret = (ret == 9999) ? -1 : ret;
 		cout << ret << endl;
 

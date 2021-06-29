@@ -1,35 +1,8 @@
-# algorithm_training
- ● 쉬는 시간동안 틈틈이 정리 <br>
- ● 다양한 프로그램 알고리즘 강의서를 읽고 복습한 내용을 정리 <br>
- ● 추후 책들을 추가할 예정 <br>
+# Divide and Conquer
+ ● 정의: 분할 정복의 영문명으로 알고리즘을 작은 단위로 분석해나가 문제를 푸는 방법을 의미한다.<br>
  
- 현재 참고 도서와 사이트: <br>
- 백준 <br> LEET CODE <br> 기타 네이버 블로그  <br> 프로그래밍 대회에서 배우는 알고리즘 문제해결 전략 (인사이트 구종만 저)  <br> The art of computer programming (도널드 커누스 저)
- 
+ ## 구성 절차 (알고리즘 문제 해결 曰)
+  1. divide: 문제를 더 작은 문제로 분할 하는 과정<br>
+  2. merge: 각 문제에 대해 구한 답을 원래 문제에 대한 답으로 병합하는 과정<br>
+  3. base case: 더이상 답을 분할 하지 않고 곧장 풀 수 있는 매우 작은 문제<br>
 
-# Algorithms  <br>
- 1. Brute force <br>
- 2. Divide and Conquer <br>
- 3. Dynamic Programming <br>
- 4. Greedy <br>
- 5. Combinational Search <br>
- 6. Decision Problem <br>
- 
- ----------------------
- 
- # Mathmetics <br>
- 1. Numerical Analysis <br>
- 2. Number Theory <br>
- 3. Geometry <br>
- 4. Discrete mathematics <br>
- 5. Statistics <br>
-  
- -----------------------
- 
-  # Data Science <br>
- 1. Data structure <br>
- 2. Machine Learning & Neural Network <br>
- 3. Big Data Technics <br>
- 4. Data Analytics <br>
- 5. Visualization <br>
- 6. Parallel Computing

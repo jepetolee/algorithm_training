@@ -1,35 +1,9 @@
-# algorithm_training
- ● 쉬는 시간동안 틈틈이 정리 <br>
- ● 다양한 프로그램 알고리즘 강의서를 읽고 복습한 내용을 정리 <br>
- ● 추후 책들을 추가할 예정 <br>
- 
- 현재 참고 도서와 사이트: <br>
- 백준 <br> LEET CODE <br> 기타 네이버 블로그  <br> 프로그래밍 대회에서 배우는 알고리즘 문제해결 전략 (인사이트 구종만 저)  <br> The art of computer programming (도널드 커누스 저)
- 
+# Dynamic Programming
 
-# Algorithms  <br>
- 1. Brute force <br>
- 2. Divide and Conquer <br>
- 3. Dynamic Programming <br>
- 4. Greedy <br>
- 5. Combinational Search <br>
- 6. Decision Problem <br>
- 
- ----------------------
- 
- # Mathmetics <br>
- 1. Numerical Analysis <br>
- 2. Number Theory <br>
- 3. Geometry <br>
- 4. Discrete mathematics <br>
- 5. Statistics <br>
-  
- -----------------------
- 
-  # Data Science <br>
- 1. Data structure <br>
- 2. Machine Learning & Neural Network <br>
- 3. Big Data Technics <br>
- 4. Data Analytics <br>
- 5. Visualization <br>
- 6. Parallel Computing
+● 동적계획법의 영문명으로 작은 문제의 요소로 답을 구분하고 이 답들로부터 원래 문제의 답을 구하는 방법이다.<br>
+● 이때 이미 계산한 값을 저장해 두는 메모리 장소를 캐시, 두번 이상 계산 되는 부분 문제를 중복되는 부분 문제라고 부른다.<br>
+
+## 구성 절차 (알고리즘 문제 해결 曰)
+
+1. memoization: 함수의 결과 값을 저장해두는 과정<br>
+2. 1.번의 사항을 이용하여 속도의 향상을 꾀하는 것이 동적 계획법의 핵심이다.<br>

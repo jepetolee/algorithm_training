@@ -52,3 +52,4 @@ fn dynamic_fibonacci_bigger(mut number: usize) -> u128 {
     }
     cache[count - 1]
 }
+//dirty code
